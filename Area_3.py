@@ -17,7 +17,7 @@ fig = plt.figure()
 ax1 = fig.add_subplot(111)
 
 #D_mag= genfromtxt('bfield.txt',delimiter='',dtype=None, names=True)#
-D_mag= genfromtxt('8132018_CsOTe_CL.txt',delimiter='',dtype=None, names=True)
+D_mag= genfromtxt('1st_Xtrim_3mm.txt',delimiter='',dtype=None, names=True)
 
 X=np.array(D_mag['Z'])
 Y=np.array(D_mag['B'])
