@@ -1,8 +1,8 @@
 # this script will integrate the area of a Distribution (Not necessarily a Gaussian Dist.)
 # If there is positive or negative vallay, it will make vector sum and show net result
 # This will do the integartion manually, ie. making slice and adding
-# In this script we consider scatter distribution, ie. its not continues
-# Author:  Jyoti Biswas, Email: jyotibiswas101@gmail.com
+# In this script we consider scatter type distribution, ie. its not continues
+# Author:  Jyoti Biswas
 
 from matplotlib import cm
 import matplotlib.pyplot as plt
